@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Lista della spesa</title>
 </head>
 <body>
 
 <h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#about">Chi siamo</a>
+  <a href="#services">Servizi</a>
+  <a href="#contact">Contatti</a>
+</div>
 
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Apri menù</span>
+
+<div id="main">
+  <p>Contenuto principale della pagina.</p>
+</div>
 </body>
 </html>
